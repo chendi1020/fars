@@ -1,0 +1,14 @@
+---
+title: "Fars Introduction"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+This is an R Package called fars used for cousera building R package course project.
+
+

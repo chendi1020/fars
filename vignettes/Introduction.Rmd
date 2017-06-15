@@ -1,0 +1,24 @@
+---
+title: "Introduction"
+author: "Di Chen"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+
+This package has several functions to read, summarize and visualize US FARS (Fatality Analysis Recording System) data. In order to do that, you need to download the data files and place them in the working directory of your code.
+
+
+### Functions
+Here is a list of functions in the package:
+
++ `fars_read()`
++ `make_filename()`
++ `fars_read_years()`
++ `fars_summarize_years()`
++ `fars_map_state()`

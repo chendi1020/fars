@@ -1,0 +1,20 @@
+Package: fars
+Title: read in and visualize FARS data
+Version: 0.0.0.9000
+Authors@R: person("Di", "Chen", email = "Di.Chen@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.3.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    graphics,
+    maps,
+    readr,
+    tidyr
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
